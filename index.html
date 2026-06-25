@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Dev</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">AV</div>
+      <nav class="topbar__nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievement</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark and light mode">
+        <span class="theme-toggle__label">Dark</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <p class="eyebrow">Full Stack / Web Developer</p>
+        <h1>Akash Vishwakarma</h1>
+        <p class="hero__description">
+          I build modern websites and web applications that are fast, accessible, and designed to create meaningful user experiences.
+          Focused on clean code, performance, and elegant design.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="https://drive.google.com/file/d/18IgJp9-vvq-8ZdTp6b1Uuwtr9fXTV78b/view?usp=sharing">View Resume</a>
+          <div class="hero__links">
+            <a href="https://github.com/imakasx" target="_blank" rel="noreferrer noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/akash-vishwakarma-b5974532b/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section reveal">
+        <div class="section__header">
+          <p class="section__eyebrow">About</p>
+          <h2>Hello, World!</h2>
+        </div>
+        <div class="content-grid">
+          <div class="content-grid__text">
+            <p>
+              I'm Akash Vishwakarma, a B.Tech graduate in Computer Science Engineering from BGIEM, with a CGPA of 7.73. I'm passionate about building modern web applications and creating seamless digital experiences that solve real-world problems.
+            </p>
+            <p>
+              I love building things for the web. 
+              What started as curiosity about how websites work has grown into a passion for creating fast, responsive, 
+              and meaningful digital experiences.
+            </p>
+          </div>
+          <div class="skills-panel">
+            <h3>Core Skills</h3>
+            <ul class="skill-list">
+              <li>C++</li>
+              <li>HTML / CSS</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>JavaScript / TypeScript</li>              
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section__header">
+          <p class="section__eyebrow">Selected Projects</p>
+          <h2>Focused work with clear impact</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span>Portfolio website</span>
+              <span>2026</span>
+            </div>
+            <h3>Akash-Portfolio</h3>
+            <p>
+              Designed and developed a modern, responsive personal portfolio website using HTML, 
+              CSS, and JavaScript, showcasing projects, skills, achievements, 
+              and professional experience through a clean and user-centric interface.
+            </p>
+            <div class="project-card__tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+              <span>Vercel</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" aria-label="View Insight Studio repository">GitHub</a>
+              <a href="#" aria-label="Visit Insight Studio live demo">Live demo</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span>E-commerce</span>
+              <span>2026</span>
+            </div>
+            <h3>Basic ui e-commerce</h3>
+            <p>
+              Built a responsive e-commerce website with product listings, category filtering, shopping cart functionality, and a clean user-friendly interface.
+            </p>
+            <div class="project-card__tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Vercel</span>
+            </div>
+            <div class="project-card__links">
+              <a href="https://github.com/imakasx/E-commerce" aria-label="View Launch Workflow repository">GitHub</a>
+              <a href="https://e-commerce-im-akash.vercel.app/" aria-label="Visit Launch Workflow live demo">Live demo</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- <section id="experience" class="section reveal">
+        <div class="section__header">
+          <p class="section__eyebrow">Experience</p>
+          <h2>Professional milestones</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <p class="timeline__period">2024 — Present</p>
+              <h3>Lead Software Engineer</h3>
+              <p class="timeline__company">Nova Studio</p>
+              <p>
+                Leading a cross-functional team to architect modular web products, define
+                reusable component systems, and improve deployment reliability.
+              </p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <p class="timeline__period">2022 — 2024</p>
+              <h3>Senior Full Stack Developer</h3>
+              <p class="timeline__company">Arc Insight</p>
+              <p>
+                Delivered enterprise-facing analytics and workflow products, balancing speed,
+                maintainability, and technical clarity across frontend and backend systems.
+              </p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <p class="timeline__period">2021 — 2022</p>
+              <h3>Software Engineering Intern</h3>
+              <p class="timeline__company">Bridge Labs</p>
+              <p>
+                Implemented internal tooling, improved onboarding documentation, and supported
+                production deployments for the engineering operations team.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section> -->
+
+      <section id="achievements" class="section reveal">
+        <div class="section__header">
+          <p class="section__eyebrow">Achievements</p>
+          <h2>Distinct recognition</h2>
+        </div>
+        <div class="achievement-grid">
+          <article class="achievement-card">
+            <h3>CodeVita 8323 Rank</h3>
+            <p>Ranked among the top performers in TCS CodeVita season 13, demonstrating strong problem solving and coding speed.</p>
+          </article>
+          <article class="achievement-card">
+            <h3>Python Essentials 1-2</h3>
+            <p>Successfully completed Python Essentials 1 through Cisco Networking Academy. Developed foundational Python programming skills including variables, control flow, functions, data structures, and problem-solving techniques.</p>
+          </article>
+          <article class="achievement-card">
+            <h3>Cyber Threat Management</h3>
+            <p>Successfully completed the Cyber Threat Management course through Cisco Networking Academy. Learned cybersecurity fundamentals, cyber threats, risk management, and security best practices.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <div class="section__header">
+          <p class="section__eyebrow">Contact</p>
+          <h2>Let's connect</h2>
+        </div>
+        <div class="contact-grid">
+          <div>
+            <p class="contact-label">Email</p>
+            <a href="mailto:akashvishwakarma0618@gmail.com">akashvishwakarma0618@gmail.com</a>
+          </div>
+          <div>
+            <p class="contact-label">LinkedIn</p>
+            <a href="https://www.linkedin.com/in/akash-vishwakarma-b5974532b/" target="_blank" rel="noreferrer noopener">linkedin.com/in/akash-vishwakarma</a>
+          </div>
+          <div>
+            <p class="contact-label">GitHub</p>
+            <a href="https://github.com/imakasx" target="_blank" rel="noreferrer noopener">github.com/imakasx</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 AV. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
